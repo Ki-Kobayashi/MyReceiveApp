@@ -18,7 +18,7 @@ class PrivateReceiver : BroadcastReceiver() {
             ctx,
             String.format(ctx.getString(R.string.private_receive_msg), dataStr),
             Toast.LENGTH_SHORT
-        ).show()
+        ).show()// コミットテスト
 
 //        // 以下でブロードキャストを送信した場合に、返信・ブロードキャスト停止として下の処理が必要
 //        // sendOrderedBroadcast(intent, null, mResultReceiver, null, 0, null, null)
