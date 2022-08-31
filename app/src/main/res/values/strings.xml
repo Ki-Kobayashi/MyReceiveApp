@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyReceiveApp</string>
+    <string name="private_receive_msg">時間は、「%s」です。</string>
+</resources>
