@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 //        setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        // コミットテスト
         // 動的にToolbarの名称を変更する
         //  本P465以外に、以下も参考
         // https://qiita.com/m-coder/items/b50f716f0443fd4948f5
